@@ -1,0 +1,90 @@
+html, body {
+  height: 100vh;
+  background-color: rgba(240, 243, 189, 1) !important;
+}
+body {
+  font-family: 'Crimson Text', serif !important; /* https://fonts.google.com/ */
+}
+.navbar-index {
+  background-color: rgba(2, 128, 144, 1) !important;
+  min-height: 150px;
+}
+.nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}
+.navbar-text {
+  font-size: 40px;
+}
+footer, .btn-primary {
+  padding: 10px;
+  background-color: rgba(5, 102, 141, 1) !important;
+}
+.footer-p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.footer-ul {
+  list-style-type: none;
+}
+.footer-list-link {
+  color: white;
+}
+.footer-list-link:hover, .course-list-link:hover, .footer-title {
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
+.footer-social-icon {
+  font-size: 20px;
+}
+.course-list-link {
+  color: black;
+}
+.custom-text-shadow {
+  text-shadow: 2px 2px 5px grey;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .navbar-text {
+    font-size: 20px;
+  }
+  .service-title-p {
+    font-size: 50px !important;
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-text {
+    font-size: 30px !important;
+  }
+  .service-title-p {
+    font-size: 50px !important;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-text {
+    font-size: 40px !important;
+  }
+  .service-title-p {
+    font-size: 65px !important;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-text {
+    font-size: 40px !important;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 50px !important;
+  }
+ }
