@@ -5,6 +5,29 @@ html, body {
 body {
   font-family: 'Crimson Text', serif !important; /* https://fonts.google.com/ */
 }
+footer, .btn-primary {
+  padding: 10px;
+  background-color: rgba(5, 102, 141, 1) !important;
+}
+.footer-p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.footer-ul {
+  list-style-type: none !important;
+}
+.footer-list-link {
+  color: rgba(255, 255, 255, 1.0) !important;
+  text-decoration: none !important;
+}
+.footer-list-link:hover, .course-list-link:hover, .footer-title {
+  font-weight: bold !important;
+  color: rgba(255, 0, 0, 1.0);
+  text-decoration: none !important;
+}
+.footer-social-icon {
+  font-size: 20px;
+}
 .navbar-index {
   background-color: rgba(2, 128, 144, 1) !important;
   min-height: 150px;
@@ -15,33 +38,25 @@ body {
 .navbar-text {
   font-size: 40px;
 }
-footer, .btn-primary {
-  padding: 10px;
-  background-color: rgba(5, 102, 141, 1) !important;
-}
-.footer-p {
-  font-size: 12px;
-  margin-bottom: 0px;
-}
-.footer-ul {
-  list-style-type: none;
-}
-.footer-list-link {
-  color: white;
-}
-.footer-list-link:hover, .course-list-link:hover, .footer-title {
-  font-weight: bold;
-  color: red;
-  text-decoration: none;
-}
-.footer-social-icon {
-  font-size: 20px;
-}
 .course-list-link {
-  color: black;
+  color: rgba(0, 0, 0, 1.0);
 }
 .custom-text-shadow {
   text-shadow: 2px 2px 5px grey;
+}
+.service-card-button-icon {
+  background-color: rgba(0, 168, 150, 1);
+}
+.service-link:link {
+  color: #212529 !important;
+  text-decoration: none !important;
+}
+.service-link:hover {
+  text-decoration: none !important;
+  color: rgba(2, 195, 154, 1) !important;
+}
+.service-link:visited {
+  color: rgba(255, 0, 0, 1.0) !important;
 }
 
 
